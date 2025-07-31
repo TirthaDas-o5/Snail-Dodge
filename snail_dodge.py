@@ -33,7 +33,7 @@ class Player(pygame.sprite.Sprite):
 
 
 
-    def player_input(selfs):
+    def player_input(self):
 
         keys = pygame.key.get_pressed()
 
